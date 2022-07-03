@@ -1,0 +1,24 @@
+ACCEPT_LICENSE=yes
+INSTALL_DIR=/home/admin/App/OMS
+PORT1=43000
+DB_USER=postgres
+DB_VENDOR=postgresql
+DB_DATA=OMS
+DB_PASS=password
+DB_SCHEMA_OWNER=postgres
+DB_HOST=postgres
+DB_PORT=5432
+DB_DRIVERS=/home/admin/App/Utility/PostgreSQLDriver/postgresql-42.4.0.jar
+DB_DRIVERS_VERSION=42.2.24
+JAVADOC_PRODUCT_LABEL=Sterling Multi-Channel Fulfillment Solution 10.0
+ADDITIONAL_ANT_JAVA_TASK_ARGS=-XX:MaxPermSize=512m
+ADDITIONAL_ANT_COMPILER_TASK_ARGS=-J-Xms256m -J-Xmx3072m -J-verbose:gc
+REINIT_DB=true
+DB_CLEAN=true
+NO_DBVERIFY=false
+STERLING_FOUNDATION_PRODUCT_LABEL=smcfs
+STERLING_FOUNDATION_PRODUCT_VERSION=10.0
+multischema.version=10.0    
+multischema.enabled=false
+multischema.file=/opt/ssfs/scripts/postgres/MultiSchema.xml
+multischema.applyddl=true

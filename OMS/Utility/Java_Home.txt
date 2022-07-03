@@ -1,0 +1,2 @@
+export JAVA_HOME=/home/admin/App/Utility/Java
+export PATH=$JAVA_HOME/bin:$PATH
