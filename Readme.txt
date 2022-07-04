@@ -21,3 +21,4 @@
 
 To understand more about what each of the above execution does, read them in text mode. 
 
+5. cleanOMSPSQLImage.sh internally triggers OMSPostgreSQL/OMS/dockerimageclean.sh, /PostgreSQL/dockerimageclean.sh and deletes the network.
