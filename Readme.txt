@@ -1,3 +1,5 @@
+Instructions:
+
 1. After pulling this repository via git, ensure to export large file using the following command:
 git lfs migrate export --everything --include="OMS/Liberty/wlp.zip, OMS/OMS/foundation/SMCFS_CORE_10.0.jar, OMS/JDK/ibm-java-sdk-8.0-7.11-x86_64-archive.bin" --verbose
 
