@@ -68,7 +68,7 @@ COPY --chown=admin:admin ./OMS/callcenter/ISCCS_10.0.0.jar /Installables/OMS/cal
 COPY --chown=admin:admin ./OMS/store/WSC_10.0.0.jar /Installables/OMS/store/WSC_10.0.0.jar
 RUN mkdir /home/admin/manage
 RUN chown admin:admin /home/admin/manage
-COPY  --chown=admin:admin ./OMS/manage/* /home/admin/manage
+COPY  --chown=admin:admin ./OMS/manage/* /home/admin/manage/
 RUN chmod 777 -R /home/admin/manage
 RUN mkdir /home/admin/App/OMS \
 && chown admin:admin /home/admin/App/OMS
