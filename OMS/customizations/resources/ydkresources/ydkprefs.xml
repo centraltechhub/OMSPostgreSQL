@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+    <configsynch>
+	    <Settings CustomEntityClass="" MaxChangesToDisplay="15000" ReportsDir="/home/admin/App/CDT/">
+            <AuditDeployment ValidateLockid="Y" ValidateOldValues="Y" ValidateRecordExistsBeforeDelete="Y"/>
+        </Settings>
+        <SourceDatabases>
+		<Database Name="OMSNPR" className="org.postgresql.Driver" dbType="postgresql" folder="" jdbcURL="jdbc:postgresql://postgres:5432/OMSNPR" schema="" user="cn_stgconfig"/>
+	</SourceDatabases>
+	<TargetDatabases>
+		<Database Name="OMSNPR" className="org.postgresql.Driver" dbType="postgresql" folder="" jdbcURL="jdbc:postgresql://10.137.193.10:5432/OMSNPR" schema="" user="cn_stgconfig"/>
+        </TargetDatabases>
+	<SourceTargetPrefs>
+            <SourceTargetPrefs>
+                <SourceTargetPair SourceDatabase="OMSNPR" TargetDatabase="OMSNPR">
+                    <Transformations>
+                    </Transformations>
+                    <Ignore>
+                     </Ignore>
+			      <AppendOnly>
+                                                <Table Name="YFS_SOURCING_RULE_HDR"/>
+                                                <Table Name="YFS_SOURCING_RULE_DTL"/>
+                                                <Table Name="YFS_SOURCING_CONFIG"/>
+                                                <Table Name="YFS_DISTRIBUTION_RULE"/>
+                                                <Table Name="YFS_ORGANIZATION"/>
+                                                <Table Name="YFS_SHIP_NODE"/>
+                                                <Table Name="YFS_ORG_ENTERPRISE"/>
+                                                <Table Name="YFS_ORG_RELATIONSHIP"/>
+                                                <Table Name="YFS_USER_GROUP"/>
+                                                <Table Name="YFS_RESOURCE_PERMISSION"/>
+                                        </AppendOnly>
+                </SourceTargetPair>
+            </SourceTargetPrefs>
+        </SourceTargetPrefs>
+    </configsynch>
+</preferences>
+

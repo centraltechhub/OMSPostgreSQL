@@ -1,0 +1,66 @@
+<DBSchema>
+    <Entities>  
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="SEQ_EXTN_MY_INVOICE_NO" Startwith="0000000001" TableType="METADATA"/>
+	
+	<Sequence Cachesize="2" Increment="1" Maxvalue="3999999999"
+            Minvalue="2000000001" Name="SEQ_EXTN_PH_INVOICE_NO" Startwith="2000000001" TableType="METADATA"/>
+
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="SEQ_EXTN_SG_INVOICE_NO" Startwith="0000000001" TableType="METADATA"/>
+      
+      <Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="0000001" Name="SEQ_EXTN_VN_INVOICE_NO" Startwith="0000001" TableType="METADATA"/>
+      
+      <Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="00000001" Name="SEQ_EXTN_SK_INVOICE_NO" Startwith="00000001" TableType="METADATA"/>
+      
+      <Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="00000001" Name="SEQ_EXTN_JP_INVOICE_NO" Startwith="00000001" TableType="METADATA"/>
+			
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="SEQ_EXTN_TH_INVOICE_NO" Startwith="0000000001" TableType="METADATA"/>
+			
+	<Sequence Cachesize="2" Increment="1" Maxvalue="999999"
+            Minvalue="000001" Name="SEQ_EXTN_TH_CREDIT_INVOICE_NO" Startwith="000001" TableType="METADATA"/>
+	
+	<Sequence Cachesize="2" Increment="1" Maxvalue="7999999999"
+            Minvalue="7000000000" Name="SEQ_EXTN_MD_RTN_ORDER_NO"  Startwith="7000000000" TableType="METADATA"/>
+			
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="SEQ_EXTN_MY_AFS_INVOICE_NO" Startwith="0000000001" TableType="METADATA"/>
+	
+	<Sequence Cachesize="2" Increment="1" Maxvalue="3999999999"
+            Minvalue="2000000001" Name="SEQ_EXTN_PH_AFS_INVOICE_NO" Startwith="2000000001" TableType="METADATA"/>
+
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="SEQ_EXTN_SG_AFS_INVOICE_NO" Startwith="0000000001" TableType="METADATA"/>
+	
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="SEQ_EXTN_MY_AFS_RTN_INVOICE_NO" Startwith="0000000001" TableType="METADATA"/>
+	<Sequence Cachesize="2" Increment="1" Maxvalue="1199999999"
+            Minvalue="1000000001" Name="SEQ_EXTN_PH_AFS_RTN_INVOICE_NO" Startwith="1000000001" TableType="METADATA"/>
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="SEQ_EXTN_SG_AFS_RTN_INVOICE_NO" Startwith="0000000001" TableType="METADATA"/>
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="SEQ_EXTN_TH_AFS_RTN_INVOICE_NO" Startwith="0000000001" TableType="METADATA"/>
+	<Sequence TableType="METADATA" Startwith="0000000001" Name="SEQ_EXTN_TR_GWC_INVOICE_NO" Minvalue="0000000001" Maxvalue="9999999999" Increment="1" 	 Cachesize="2" />
+	<Sequence TableType="METADATA" Startwith="0000000001" Name="SEQ_EXTN_TR_INVOICE_NO" Minvalue="0000000001" Maxvalue="9999999999" Increment="1" Cachesize="2" />		
+			
+	<Sequence TableType="METADATA" Startwith="000000001" Name="SEQ_EXTN_TR_INDV_INVOICE_NO" Minvalue="000000001" Maxvalue="999999999" Increment="1" Cachesize="2" />	
+	
+	<Sequence TableType="METADATA" Startwith="000000001" Name="SEQ_EXTN_TR_CORP_INVOICE_NO" Minvalue="000000001" Maxvalue="999999999" Increment="1" Cachesize="2" />	
+	
+	<Sequence Cachesize="2" Increment="1" Maxvalue="8999999999" Minvalue="8000000000" Name="SEQ_EXTN_TR_RTN_ORDER_NO"  Startwith="8000000000" TableType="METADATA"/>
+	<Sequence TableType="METADATA" Startwith="0000000001" Name="SEQ_EXTN_TR_RTN_INVOICE_NO" Minvalue="0000000001" Maxvalue="9999999999" Increment="1"  Cachesize="2" /> 
+    <Sequence Cachesize="2" Increment="1" Maxvalue="11999999"
+            Minvalue="1000001" Name="SEQ_EXTN_KR_SSR_RTN_TRACK_NO"  Startwith="1000001" TableType="METADATA"/>
+    </Entities>
+
+	<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="9999999995" Name="SEQ_EXTN_MY_INVNO_TMP" Startwith="9999999995" TableType="METADATA"/>
+  	<Sequence TableType="METADATA" Startwith="0000000001" Name="SEQ_EXTN_IN_SALE_INVOICE_NO" Minvalue="0000000001" Maxvalue="9999999999" Increment="1" Cachesize="2" />
+	
+	
+</DBSchema>
+
