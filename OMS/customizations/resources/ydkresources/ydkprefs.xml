@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences>
     <configsynch>
-	    <Settings CustomEntityClass="" MaxChangesToDisplay="15000" ReportsDir="/home/admin/App/CDT/">
+            <Settings CustomEntityClass="" MaxChangesToDisplay="15000" ReportsDir="/home/admin/App/CDT">
             <AuditDeployment ValidateLockid="Y" ValidateOldValues="Y" ValidateRecordExistsBeforeDelete="Y"/>
         </Settings>
         <SourceDatabases>
-		<Database Name="OMSNPR" className="org.postgresql.Driver" dbType="postgresql" folder="" jdbcURL="jdbc:postgresql://postgres:5432/OMSNPR" schema="" user="cn_stgconfig"/>
-	</SourceDatabases>
-	<TargetDatabases>
-		<Database Name="OMSNPR" className="org.postgresql.Driver" dbType="postgresql" folder="" jdbcURL="jdbc:postgresql://10.137.193.10:5432/OMSNPR" schema="" user="cn_stgconfig"/>
+                <Database Name="OMSNPR" className="org.postgresql.Driver" dbType="postgresql" folder="" jdbcURL="jdbc:postgresql://postgres:5432/OMSNPR" schema="cn_stgconfig" user="postgres"/>
+        </SourceDatabases>
+        <TargetDatabases>
+                <Database Name="OMSNPR" className="" dbType="xml" folder="/home/admin/App/CDT" jdbcURL="" schema="cn_stgconfig" user="postgres"/>
         </TargetDatabases>
-	<SourceTargetPrefs>
-            <SourceTargetPrefs>
+        <SourceTargetPrefs>
+          <SourceTargetPrefs>
                 <SourceTargetPair SourceDatabase="OMSNPR" TargetDatabase="OMSNPR">
                     <Transformations>
                     </Transformations>
                     <Ignore>
-                     </Ignore>
-		     <AppendOnly> 
-		     </AppendOnly>	     
-            </SourceTargetPrefs>
+                    </Ignore>
+                    <AppendOnly>
+                    </AppendOnly>
+            </SourceTargetPair>
+           </SourceTargetPrefs> 
         </SourceTargetPrefs>
     </configsynch>
 </preferences>
-
