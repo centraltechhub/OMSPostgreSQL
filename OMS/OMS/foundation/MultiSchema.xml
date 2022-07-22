@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colonyconfig>
+        <colonies>
+                <colony name="DEFAULT" pkprefix="20" version="10.0">
+                        <schema poolid="DEFAULT_STATISTICS" tabletype="STATISTICS"/>
+                        <schema poolid="DEFAULT_CONFIGURATION" tabletype="CONFIGURATION"/>
+                        <schema poolid="DEFAULT_TRANSACTION" tabletype="TRANSACTION"/>
+                        <schema poolid="DEFAULT_MASTER" tabletype="MASTER"/>
+                </colony>
+        </colonies>
+        <pools>
+                <pool id="DEFAULT_STATISTICS">
+                        <jdbc>
+                                <param name="url" value="jdbc:postgresql://postgres:5432/OMSNPR"/>
+                                <param name="user" value="cn_stgstats"/>
+                                <param name="password" value="password"/>
+                                <param name="driver" value="org.postgresql.Driver"/>
+                                <param name="schema" value="cn_stgstats"/>
+                        </jdbc>
+                </pool>
+                <pool id="DEFAULT_CONFIGURATION">
+                        <jdbc>
+                                <param name="url" value="jdbc:postgresql://postgres:5432/OMSNPR"/>
+                                <param name="user" value="cn_stgconfig"/>
+                                <param name="password" value="password"/>
+                                <param name="driver" value="org.postgresql.Driver"/>
+                                <param name="schema" value="cn_stgconfig"/>
+                        </jdbc>
+                </pool>
+                <pool id="DEFAULT_TRANSACTION">
+                        <jdbc>
+                                <param name="url" value="jdbc:postgresql://postgres:5432/OMSNPR"/>
+                                <param name="user" value="cn_stgchntrans"/>
+                                <param name="password" value="password"/>
+                                <param name="driver" value="org.postgresql.Driver"/>
+                                <param name="schema" value="cn_stgchntrans"/>
+                        </jdbc>
+                </pool>
+                <pool id="DEFAULT_MASTER">
+                        <jdbc>
+                                <param name="url" value="jdbc:postgresql://postgres:5432/OMSNPR"/>
+                                <param name="user" value="cn_stgchnmaster"/>
+                                <param name="password" value="password"/>
+                                <param name="driver" value="org.postgresql.Driver"/>
+                                <param name="schema" value="cn_stgchnmaster"/>
+                        </jdbc>
+                </pool>
+        </pools>
+</colonyconfig>

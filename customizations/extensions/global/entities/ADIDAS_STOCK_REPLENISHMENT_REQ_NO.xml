@@ -1,0 +1,116 @@
+<DBSchema>
+    <Entities>  
+  <Sequence Name="ADIDAS_REPL_REQ_SEQ" TableType="METADATA" Increment="1" Startwith="0000000001" Maxvalue="9999999999" Minvalue="0000000001" Order="true" Cycle="True" Cachesize="500" Description="Sequence no for Request ID for Item Stock Replenishment to AFS"/> 
+<Sequence Name="ADIDASWE_REPL_REQ_SEQ" TableType="METADATA" Increment="1" Startwith="0000000001" Maxvalue="9999999999" Minvalue="0000000001" Order="true" Cycle="True" Cachesize="500" Description="Sequence no for Request ID for Item Stock Replenishment to AFS for WE"/>    
+<Sequence  Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="0" Name="EXTN_EBAY_ADIDAS_ORD_NO" Startwith="30000224"  Order="false" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="1000000000" Name="SEQ_EXTN_GC_AUTHORIZATION_ID"  Order="false" Startwith="1000006320" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="4999999999"
+            Minvalue="4000086590" Name="SEQ_EXTN_RTN_ORDER_NO"  Order="false" Startwith="4000088361" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="0" Name="EXTN_EBAY_REEBOK_ORD_NO"  Order="false" Startwith="30000216" TableType="METADATA"/>
+<Sequence Cachesize="10" Increment="1" Maxvalue="9999999999"
+            Minvalue="1" Name="SEQ_YFS_INVOICE_NO" Startwith="1" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="7999999999"
+            Minvalue="700000000" Name="SEQ_EXTN_TRANSFER_ORDER_NO"  Order="false" Startwith="700000000" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="6999999999"
+            Minvalue="6000000000" Name="SEQ_EXTN_WE_RTN_ORDER_NO"  Order="false" Startwith="6000000101" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="10000001" Name="SEQ_EXTN_EXC_ORDER_NO"  Order="false" Startwith="10000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="1000001" Name="SEQ_EXTN_SALES_ORDER_NO"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="10000001" Name="SEQ_EXTN_EXCHANGE_ORDER_NO"  Order="false" Startwith="10000001" TableType="METADATA"/>
+<Sequence Name="ADIDASUS_REPL_REQ_SEQ" TableType="METADATA" Increment="1" Startwith="0000000001" Maxvalue="9999999999" Minvalue="0000000001" Order="true" Cycle="True" Cachesize="500" Description="Sequence no for Request ID for Item Stock Replenishment to AFS for US"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_UK"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_FR"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_AT"  Order="false" Startwith="1000001" TableType="METADATA"/>  
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_BE"  Order="false" Startwith="1000001" TableType="METADATA"/>  
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_CH"  Order="false" Startwith="1000001" TableType="METADATA"/>			
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_CZ"  Order="false" Startwith="1000001" TableType="METADATA"/>	
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_DE"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_DK"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_ES"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_FI"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_GR"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_IE"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_IT"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_NL"  Order="false" Startwith="1000001" TableType="METADATA"/>	
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_NO"  Order="false" Startwith="1000001" TableType="METADATA"/>	
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_PL"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_PT"  Order="false" Startwith="1000001" TableType="METADATA"/>	
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_SE"  Order="false" Startwith="1000001" TableType="METADATA"/>	
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_ECC1"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_ECC2"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_SK"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EXM1"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EXM2"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EKO1"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EKO2"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EAR1"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EAR2"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EPE1"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EPE2"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_ECL1"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_ECL2"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EBR1"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_EBR2"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="10000001" Name="SEQ_EXTN_EXC_ORDER_NO_TMALL"  Order="false" Startwith="10000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="10000001" Name="SEQ_EXTN_EXC_ORDER_NO_JD"  Order="false" Startwith="10000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="10000001" Name="SEQ_EXTN_EXC_ORDER_NO_PDD"  Order="false" Startwith="10000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="99999999"
+            Minvalue="10000001" Name="SEQ_EXTN_EXC_ORDER_NO_DOUYIN"  Order="false" Startwith="10000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="9999999"
+            Minvalue="1000001" Name="SEQ_EXTN_EXC_ORDER_NO_ECH1"  Order="false" Startwith="1000001" TableType="METADATA"/>
+<Sequence Cachesize="2" Increment="1" Maxvalue="5999999999"
+            Minvalue="5000000000" Name="SEQ_EXTN_NAM_RTN_ORDER_NO"  Order="false" Startwith="5000000101" TableType="METADATA"/>
+<Sequence Name="ADIDAS_REPL_REQ_SEQ_POBO" TableType="METADATA" Increment="1" Startwith="000000000000001" Maxvalue="999999999999999" Minvalue="000000000000001" Order="true" Cycle="True" Cachesize="500" Description="Sequence no for Request ID for Item Stock Replenishment to AFS for POBO"/>
+<Sequence Name="ADIDASWE_REPL_REQ_SEQ_POBO" TableType="METADATA" Increment="1" Startwith="000000000000001" Maxvalue="999999999999999" Minvalue="000000000000001" Order="true" Cycle="True" Cachesize="500" Description="Sequence no for Request ID for Item Stock Replenishment to AFS for POBO"/>
+<Sequence Name="ADIDASLAM_REPL_REQ_SEQ_POBO" TableType="METADATA" Increment="1" Startwith="000000000000001" Maxvalue="999999999999999" Minvalue="000000000000001" Order="true" Cycle="True" Cachesize="500" Description="Sequence no for Request ID for Item Stock Replenishment to AFS for POBO"/>
+  <Sequence Cachesize="2" Increment="1" Maxvalue="9999999999"
+            Minvalue="9000000000" Name="SEQ_EXTN_LAM_RTN_ORDER_NO"  Order="false" Startwith="9000000001" TableType="METADATA"/>
+<Sequence Cachesize="500" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="ADIDASLAM_REPL_REQ_SEQ"  Order="true" Cycle="True" Startwith="0000000001" TableType="METADATA" Description="Sequence no for Request ID for Item Stock Replenishment to AFS for AdidasLAM"/>
+<Sequence Cachesize="500" Increment="1" Maxvalue="9999999999"
+            Minvalue="0000000001" Name="REEBOKLAM_REPL_REQ_SEQ"  Order="true" Cycle="True" Startwith="9000000001" TableType="METADATA" Description="Sequence no for Request ID for Item Stock Replenishment to AFS for ReebokLAM"/>	
+<Sequence TableType="METADATA" Startwith="0000000001" Name="SEQ_EXTN_IN_SALE_INVOICE_NO" Minvalue="0000000001" Maxvalue="9999999999" Increment="1" Cachesize="2" />	
+<Sequence Cachesize="500" Increment="1" Maxvalue="9999999999" Minvalue="0000000001" Name="ADIDASCHN_REPL_REQ_SEQ"  Order="true" Cycle="True" Startwith="0000000001" TableType="METADATA" Description="Sequence no for Request ID for Item Stock Replenishment to AFS for AdidasCHINA"/>
+</Entities>
+</DBSchema>

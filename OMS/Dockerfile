@@ -64,11 +64,12 @@ COPY --chown=admin:admin ./Utility/Java_Home.txt /home/admin/App/Utility/Java_Ho
 # IBM OMS Installation
 COPY --chown=admin:admin ./OMS/foundation/SMCFS_CORE_10.0.jar /Installables/OMS/foundation/SMCFS_CORE_10.0.jar
 COPY --chown=admin:admin ./OMS/foundation/silent_install.txt /Installables/OMS/foundation/silent_install.txt
+COPY --chown=admin:admin ./OMS/foundation/MultiSchema.xml /Installables/OMS/foundation/MultiSchema.xml
 COPY --chown=admin:admin ./OMS/callcenter/ISCCS_10.0.0.jar /Installables/OMS/callcenter/ISCCS_10.0.0.jar
 COPY --chown=admin:admin ./OMS/store/WSC_10.0.0.jar /Installables/OMS/store/WSC_10.0.0.jar
 RUN mkdir /home/admin/manage
 RUN chown admin:admin /home/admin/manage
-COPY  --chown=admin:admin ./OMS/manage/* /home/admin/manage/
+COPY  --chown=admin:admin ./OMS/manage/* /home/admin/manage
 RUN chmod 777 -R /home/admin/manage
 RUN mkdir /home/admin/App/OMS \
 && chown admin:admin /home/admin/App/OMS

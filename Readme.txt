@@ -1,3 +1,6 @@
+
+Readme.txt
+
 Instructions:
 
 1. After pulling this repository via git, ensure to export large file using the following command:
@@ -27,3 +30,5 @@ git lfs migrate export --everything --include="OMS/Liberty/wlp.zip, OMS/OMS/foun
 To understand more about what each of the above execution does, read them in text mode. 
 
 6. cleanOMSPSQLImage.sh internally triggers OMSPostgreSQL/OMS/dockerimageclean.sh, /PostgreSQL/dockerimageclean.sh and deletes the network.
+
+
