@@ -17,6 +17,8 @@
                     </Transformations>
                     <Ignore>
                      </Ignore>
+		     <AppendOnly> 
+		     </AppendOnly>	     
             </SourceTargetPrefs>
         </SourceTargetPrefs>
     </configsynch>
