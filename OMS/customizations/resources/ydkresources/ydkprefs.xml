@@ -17,19 +17,6 @@
                     </Transformations>
                     <Ignore>
                      </Ignore>
-			      <AppendOnly>
-                                                <Table Name="YFS_SOURCING_RULE_HDR"/>
-                                                <Table Name="YFS_SOURCING_RULE_DTL"/>
-                                                <Table Name="YFS_SOURCING_CONFIG"/>
-                                                <Table Name="YFS_DISTRIBUTION_RULE"/>
-                                                <Table Name="YFS_ORGANIZATION"/>
-                                                <Table Name="YFS_SHIP_NODE"/>
-                                                <Table Name="YFS_ORG_ENTERPRISE"/>
-                                                <Table Name="YFS_ORG_RELATIONSHIP"/>
-                                                <Table Name="YFS_USER_GROUP"/>
-                                                <Table Name="YFS_RESOURCE_PERMISSION"/>
-                                        </AppendOnly>
-                </SourceTargetPair>
             </SourceTargetPrefs>
         </SourceTargetPrefs>
     </configsynch>
